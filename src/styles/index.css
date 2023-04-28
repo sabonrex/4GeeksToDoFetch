@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:bisque;
+}
+
+h1 {
+    color: rgba(136, 88, 0, 0.922);
+    font-family:'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 50px;
+}
+
+ul .list-item, .list-title{
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #d5ffa61b;
+    background: white;
+}
+
+
+input {
+    border: none;
+    width: 100%;
+}
+
+.invisible {
+    visibility: hidden;
+    float: right;
+}
+
+li:hover * {
+    visibility: visible;
+}
+p {
+    text-align: right;
+}
